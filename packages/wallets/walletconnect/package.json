@@ -1,6 +1,6 @@
 {
     "name": "@solana/wallet-adapter-walletconnect",
-    "version": "0.1.17",
+    "version": "0.1.18",
     "author": "Solana Maintainers <maintainers@solana.foundation>",
     "repository": "https://github.com/anza-xyz/wallet-adapter",
     "license": "Apache-2.0",
@@ -35,13 +35,10 @@
         "@solana/web3.js": "^1.77.3"
     },
     "dependencies": {
-        "@jnwng/walletconnect-solana": "^0.2.0",
-        "@solana/wallet-adapter-base": "workspace:^"
+        "@solana/wallet-adapter-base": "workspace:^",
+        "@walletconnect/solana-adapter": "^0.0.7"
     },
     "devDependencies": {
-        "@solana/web3.js": "^1.77.3",
-        "@types/pino": "^6.3.12",
-        "@walletconnect/types": "^2.8.1",
         "shx": "^0.3.4"
     }
 }
